@@ -1,6 +1,6 @@
 {
   inputs = {
-    homelab.url = "git+ssh://git@github.com/GrimOutlook/nix-homelab";
+    homelab.url = "github:GrimOutlook/nix-homelab";
 
     nix-config = {
       url = "github:GrimOutlook/nix-config";
