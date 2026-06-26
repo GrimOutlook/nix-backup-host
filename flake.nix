@@ -13,10 +13,6 @@
   outputs =
     { self, ... }:
     {
-      nixosModules = {
-        common = ./modules/common.nix;
-        hardware = ./modules/hardware.nix;
-        disko-layout = ./modules/disko-layout.nix;
-      };
+      nixosModules.default = ./modules/default.nix;
     };
 }
